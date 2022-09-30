@@ -1,6 +1,6 @@
 #include "anthro.dtsi"
 
-&kscan {
+&kscan_up {
 	// left half:
 	row-gpios = <&pro_micro 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>, // top
 		        <&pro_micro 16 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>, // home
