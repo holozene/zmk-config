@@ -1,5 +1,9 @@
 #include "anthro.dtsi"
 
+&default_transform { // The matrix transform for this board is 0 columns over.
+    col-offset = <0>;
+};
+
 &kscan {
 	// left half:
 	row-gpios = <&pro_micro 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>, // top
