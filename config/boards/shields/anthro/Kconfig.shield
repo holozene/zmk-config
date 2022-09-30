@@ -1,5 +1,5 @@
-config SHIELD_MY_BOARD_LEFT
+config SHIELD_ANTHRO_LEFT
     def_bool $(shields_list_contains,anthro_left)
 
-config SHIELD_MY_BOARD_RIGHT
+config SHIELD_ANTHRO_RIGHT
     def_bool $(shields_list_contains,anthro_right)

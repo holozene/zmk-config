@@ -1,14 +1,14 @@
-if SHIELD_MY_BOARD_LEFT
+if SHIELD_ANTHRO_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "AnthroSplit"
+    default "Anthro"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_MY_BOARD_LEFT || SHIELD_MY_BOARD_RIGHT
+if SHIELD_ANTHRO_LEFT || SHIELD_ANTHRO_RIGHT
 
 config ZMK_SPLIT
     default y
