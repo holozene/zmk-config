@@ -13,8 +13,8 @@
 		        <&pro_micro 16 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>, // high
 		        <&pro_micro 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>; // low
 
-    col-gpios = //                                                         thumb
-				<&pro_micro 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>; // 10 far
+				//                                                         thumb
+    col-gpios = <&pro_micro 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>, // 10 far
 				<&pro_micro 18 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>, // 11 mid
 				<&pro_micro 19 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>, // 12 home
 				<&pro_micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>, // 13 near
@@ -24,6 +24,6 @@
 				<&pro_micro 6  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>, // 16 middle
 				<&pro_micro 4  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>, // 17 ring
 				<&pro_micro 3  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>, // 18 pinky
-				<&pro_micro 2  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>, // 19 outer
+				<&pro_micro 2  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>; // 19 outer
 };
  // 14 is missing
