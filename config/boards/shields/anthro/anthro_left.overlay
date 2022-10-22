@@ -2,7 +2,7 @@
 
 &kscan_up {
 	// left half:
-	row-gpios = <&pro_micro 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>, // top
+	row-gpios = <&pro_micro 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>, // top
 		        <&pro_micro 16 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>, // home
 		        <&pro_micro 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>, // bottom
 				//													    thumb
